@@ -1,5 +1,8 @@
 h1 {
   text-align: center;
+  align-items: center;
+  padding: 0;
+  /* margin: 0; */
 }
 
 .side-nav {
@@ -25,4 +28,37 @@ h1 {
 
 .side-nav a:hover {
   color: #f1f1f1;
+}
+
+.nav-across ul {
+  text-decoration: none;
+  position: sticky;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+  background-color: white;
+  margin-left: 350px;
+}
+
+.nav-across li {
+  text-decoration: none;
+  float: left;
+  list-style-type: none;
+  font-size: 18px;
+  margin: 20px
+}
+
+.nav-across a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  text-align: center;
+}
+
+.nav-across a:hover {
+  color: #818181;
+}
+
+.bolded {
+  font-weight: bold;
 }
