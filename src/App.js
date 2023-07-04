@@ -1,12 +1,14 @@
 import "./App.css";
 import Header from "./Components/Header";
-import NavDown from "./Components/NavDown";
+import NavAcross from "./Components/NavAcross";
+import SideNav from "./Components/SideNav";
 
 function App() {
   return (
     <div class="App">
       <Header />
-      <NavDown />
+      <NavAcross />
+      <SideNav />
     </div>
   );
 }
