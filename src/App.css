@@ -37,11 +37,16 @@ h1 {
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.side-nav ul {
   list-style-type: none;
+  text-align: center;
+  padding: 0;
 }
 
 .side-nav a {
-  padding: 6px 6px 6px 32px;
+  padding: 10px;
   text-decoration: none;
   font-size: 23px;
   color: #818181;
