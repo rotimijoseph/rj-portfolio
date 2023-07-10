@@ -7,6 +7,7 @@ const NavAcross = () => {
                 <li><a href="/backend">back-end</a></li>
                 <li><a href="/techstack">tech stack</a></li>
                 <li><a href="/skateboarding">skateboarding</a></li>
+                <li><a href="/nvq">NVQ</a></li>
             </ul>
         </nav>
     )
