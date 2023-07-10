@@ -5,7 +5,9 @@
   "sidenav header"
   "sidenav navacross"
   "sidenav content"
-  "sidenav about-me";
+  "sidenav content2"
+  "sidenav content3";
+
 }
 
 h1 {
@@ -25,6 +27,9 @@ h1 {
 
 .grid-item-4 {
   grid-area: content;
+  padding: 3px;
+  margin-left: 0;
+  margin-right: 12px;
 }
 
 .side-nav {
@@ -87,4 +92,15 @@ h1 {
 
 .bolded {
   font-weight: bold;
+}
+
+.rjLogo {
+  width: 80%;
+  height: auto;
+  margin-left: 13px
+}
+
+.all-projects {
+  border: solid 4px black;
+
 }
